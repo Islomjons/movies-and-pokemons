@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fredoka-one-v13-latin-regular.woff2') format('woff2'),
+         url('../fonts/fredoka-one-v13-latin-regular.woff') format('woff');
+  }
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Fraunces", "Arial", sans-serif;
+    font-size: 16px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Fredoka One';
+}
+
+p {
+    font-family: 'Fredoka One';
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 100px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
+
+li {
+    transition: 1s ease;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
